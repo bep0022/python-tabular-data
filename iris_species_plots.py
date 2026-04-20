@@ -25,7 +25,6 @@ if __name__ == '__main__':
     plt.xlabel("Setosa Petal length (cm)")
     plt.ylabel("Setosa Sepal length (cm)")
     plt.legend()
-    plt.savefig("setosa_petal_v_sepal_length_regress.png")
 
     # Subset & plot Iris_virginica
     virginica = dataframe[dataframe.species == "Iris_virginica"]
@@ -41,7 +40,6 @@ if __name__ == '__main__':
     plt.xlabel("Virginica Petal length (cm)")
     plt.ylabel("Virginica Sepal length (cm)")
     plt.legend()
-    plt.savefig("virginica_petal_v_sepal_length_regress.png")
 
     # Subset & plot Iris_versicolor
     versicolor = dataframe[dataframe.species == "Iris_versicolor"]
@@ -57,5 +55,4 @@ if __name__ == '__main__':
     plt.xlabel("Versicolor Petal length (cm)")
     plt.ylabel("Versicolor Sepal length (cm)")
     plt.legend()
-    plt.savefig("versicolor_petal_v_sepal_length_regress.png")
-
+    plt.savefig("species_petal_v_sepal_length_regress.png")
