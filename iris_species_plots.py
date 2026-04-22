@@ -1,7 +1,11 @@
 #! /usr/bin/env python3
 
-"Perform and plot linear regression for all three iris species: Iris_setosa, Iris_virginica, Iris_versicolor"
+"""
+Perform and plot linear regression for all three iris species: Iris_setosa, Iris_virginica, Iris_versicolor"
 
+This script reads iris data from a CSV file, computes linear regression
+between petal length and sepal length for each species, and saves a plot.
+"""
 
 import pandas as pd
 import matplotlib.pyplot as plt
